@@ -11,3 +11,26 @@ node_modules
 
 # Ignora archivos de configuración SASS
 .sass-cache
+node_modules/
+
+build/
+
+npm-debug.log
+
+.env
+
+.env.test
+
+.env.production
+
+.DS_Store
+
+.npm
+
+.eslintcache
+
+logs/
+
+*.log
+
+npm-debug.log*
