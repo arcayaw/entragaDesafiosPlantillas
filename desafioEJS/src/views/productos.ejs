@@ -1,0 +1,17 @@
+<div>
+  <%- include("./partials/navbar.ejs")%>
+    <h2>LISTA DE PRODUCTOS</h2>
+    <% productos.forEach((productos)=>{ %>
+      <li>
+        <%= productos.title %>
+      </li>
+
+      <li>
+        <%= productos.price %>
+      </li>
+      <img style="width:200px ;" src="<%= productos.thumbnail %>" alt="">
+      <br>
+      <br>
+      <% })%>
+
+</div>

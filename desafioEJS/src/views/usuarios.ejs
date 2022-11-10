@@ -1,0 +1,15 @@
+<div>
+  <%- include("./partials/navbar.ejs")%>
+    <h2>pagina de usuarios</h2>
+    <h2>LISTA DE PRODUCTOS</h2>
+    <% people.forEach((usuario)=>{ %>
+      <li>
+        <%= usuario.name %>
+      </li>
+      <li>
+        <%= usuario.edad %>
+      </li>
+      <br>
+
+      <% })%>
+</div>

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Mouse MX3",
+    "price": " 17500",
+    "thumbnail": "https://m.media-amazon.com/images/I/613a-3jtieL._AC_SY450_.jpg"
+  },
+    {
+    "id": 2,
+    "title": "Mouse MX33",
+    "price": " 17500",
+    "thumbnail": "https://m.media-amazon.com/images/I/613a-3jtieL._AC_SY450_.jpg"
+  },
+  
+
+]

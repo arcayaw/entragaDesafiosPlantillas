@@ -1,0 +1,12 @@
+
+html
+  head
+    title Pagina Productos
+
+  body
+    h1 Productos
+    each n in productos
+      li= n.title 
+      li= n.price
+      img(style='width:200px' src=n.thumbnail)
+        

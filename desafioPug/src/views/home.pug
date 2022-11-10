@@ -1,0 +1,31 @@
+
+html
+  head
+    title Pagina inicial
+  body
+    
+    nav
+      a(href="/") Home
+      a(href="/products")  Productos
+      a(href="/usuarios")  Usuarios
+      a(href="/contacto")  Contacto  
+    h2 Pagina inicial 
+
+    form(method='post' action='/products')
+              div
+                label(for='title') Titulo:
+                input(type='text', placeholder='nombre producto' name='title')
+              div
+                label(for='price') Precio:
+                input(type='text', placeholder='precio del producto' name='price')
+              div
+                label(for='thumbnail') Imagen:
+                input(type='text', placeholder='imagen del producto' name='thumbnail')
+              button(type="submit") Guardar
+
+
+//- each n in productos
+    //-   li= n.title 
+    //-   li= n.price
+    //-   img(style='width:200px' src=n.thumbnail)
+      
